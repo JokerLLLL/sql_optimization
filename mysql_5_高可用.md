@@ -64,4 +64,6 @@ xtrabackup --slave-info        // innodb 不加锁
         union all 
         select count(*) from comment where pro_id = 199 and time > date(now())
     ) a;
+   
     
+# 分库分表
